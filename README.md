@@ -1,7 +1,7 @@
 # WisperChipCli
 CAN-BUS utillities command line serial console to monitor directly on Arduino
  
------------------------------------------------------------------------------------------------
+
 help                 Shows this help screen. welcome Reprint the welcome screen.
 clear                Clear the console screen.
 cltest n             VT100 color test
@@ -15,8 +15,6 @@ bruteforce [n]       Perform brute force attack from ID
 slowdown [n]         Create a delay between reading messages. Default=0.
 ls mem               Print CAN messages currently in memory (Warning Buggy)
 hexmode [on] [off]   Show CAN-BUS message using HEX values instead of numbers.
-
------------------------------------------------------------------------------------------------
 
 
 Commands Explained.
