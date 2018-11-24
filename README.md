@@ -5,7 +5,7 @@ CAN-BUS utillities command line serial console to monitor directly on Arduino
 help Shows this help screen.
 welcome Reprint the welcome screen.
 clear Clear the console screen.
-cltest [n] VT100 color test
+cltest n VT100 color test
 reset Reset/Reboot Arduino
 
 caninit125 Init can-bus shield at 125Kbps.
@@ -13,10 +13,10 @@ caninit500 Init can-bus shield at 500Kbps.
 candump Dump all CAN-BUS data to console while monitoring changing messages.
 rawdump Dump all CAN-BUS data to console without monitoring.
 emulate Emulate the CAN-BUS.
-bruteforce [n] Perform brute force attack from ID
-slowdown [n] Create a delay between reading messages. Default=0.
+bruteforce n Perform brute force attack from ID
+slowdown n Create a delay between reading messages. Default=0.
 ls mem Print CAN messages currently in memory (Warning Buggy)
-hexmode [on][off] Show CAN-BUS message using HEX values instead of numbers.
+hexmode on off Show CAN-BUS message using HEX values instead of numbers.
 killcan Disconnect CAN-BUS.
 -----------------------------------------------------------------------------------------
 
